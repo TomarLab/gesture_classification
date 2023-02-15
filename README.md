@@ -13,8 +13,8 @@ The video data was collected and processed using [Mediapipe](https://google.gith
 ##### 53 labesls (0 to 52) == 16 for leftHand, 16 for rightHand, 19 for bothHands, 2 for head
 
 ### Labels set
-`righthand = [2,5,8,18,20,23,26,29,31,33,35,37,39,41,44,52]`
-`lefthand = [1,4,7,9,17,19,22,25,28,30,32,34,36,38,40,43]`
+`righthand = [2,5,8,18,20,23,26,29,31,33,35,37,39,41,44,52]` \
+`lefthand = [1,4,7,9,17,19,22,25,28,30,32,34,36,38,40,43]` \
 `bothhand = [0,3,6,10,11,12,13,14,15,16,21,24,27,42,45,46,47,48,49,50,51]`
 
 - 21 + 21 for the fingers for left and right hand
