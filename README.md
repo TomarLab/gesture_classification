@@ -17,17 +17,18 @@ The video data was collected and processed using [MediaPipe](https://google.gith
 `lefthand = [1,4,7,9,17,19,22,25,28,30,32,34,36,38,40,43]` \
 `bothhand = [0,3,6,10,11,12,13,14,15,16,21,24,27,42,45,46,47,48,49,50,51]`
 
-- 21 + 21 for the fingers for left and right hand
-- 25 for the body without legs
+- 21 joints for each left and right hand fingers, 42 in-total.
+- 25 joints for the body without legs.
 
 ## Classification Tasks:
 
-### For classification classes tasks, the classification algorithms are applied primarily on three classes classification ie. Left, right, both. Next, the data is divided into lefthand, righthand, & bothhand datasets, and the classification model is trained on lefthand (16) classes, righthand (16) classes, bothhand (19) classes.  
+### For our multi-classes classification tasks, the classification algorithms are applied primarily on three classes classification ie. Left, right, both. Next, the data is divided into lefthand, righthand, & bothhand datasets, and the classification model is trained on lefthand (16) classes, righthand (16) classes, bothhand (19) classes.  
 
 ## For training model , the  supervised learning methods is implemented, Naive-Bayes-Gaussian Method & Linear-Regression method. 
 
 The best performance was by Linear Regression (LR) classification modal on whole dataset for three classes, the accuracy achieved after 500 iteration was 99.78%. 
 For multi-classes classification problem, the accuracy decreased marginally. For Naive Bayes Gaussian (NBG), best accuracy was achieved on reduced dimentionality data using t-SNE approach. The table below sumarize the achieved results: 
+\
 | Model | Classes | Dataset | Accuracy % | 
 |--------|----------|---------|----------|
 | LR | 3 | whole | 99.78 |
@@ -35,8 +36,8 @@ For multi-classes classification problem, the accuracy decreased marginally. For
 | LR | 16 | righthand | 82.33 | 
 | LR | 19 | bothhand | 93.85 |
 | NBG | 3 | whole | 91.28 | 
-|NBG | 3 | t-SNE | 96.80 | 
+| NBG | 3 | t-SNE | 96.80 | 
 
 \
 For more information or discussion, feel free to write me on [Telegram](https://t.me/tomarp) or [email](mailto:p.tomar@outlook.de?subject=[GitHub]). \
-Happy learning. 
+Please feel free to leave a comment or any suggestions. Happy learning. 
