@@ -5,12 +5,12 @@ The video data was collected and processed using [Mediapipe](https://google.gith
 ## Dataset Description
 
 ### Samples
-- 7420 4d_full,  2798 4d_oneHand
-- 120 times, x,y,z co-ordinates
+- 7420 4D samples
+- 120 times on three-coordinates 
 - 67 joints (25 body, 21 leftHnad 21 rightHand)
 
 ### Labels
-##### 53 labesls (0 to 52) == 16 for leftHand, 16 for rightHand, 19 for bothHands, 2 for head
+`53 labesls (0 to 52) 16 for leftHand, 16 for rightHand, 19 for bothHands, 2 for head`
 
 ### Labels set
 `righthand = [2,5,8,18,20,23,26,29,31,33,35,37,39,41,44,52]` \
