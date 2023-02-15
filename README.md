@@ -7,7 +7,7 @@ The video data was collected and processed using [MediaPipe](https://google.gith
 ### Samples
 - 7420 4D samples
 - 120 times on three-coordinates 
-- 67 joints (25 body, 21 leftHnad 21 rightHand)
+- 67 joints (25 for body w/o legs, 21 for left-hand 21 for right-hand)
 
 ### Labels
 `53 labesls (0 to 52) 16 for leftHand, 16 for rightHand, 19 for bothHands, 2 for head`
