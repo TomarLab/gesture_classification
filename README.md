@@ -1,6 +1,6 @@
 # Gesture Classification on Human Skeleton Gesture recognition
 
-The video data was collected and processed using [MediaPipe](https://google.github.io/mediapipe/) -- a machine learning solution for high-fidelity body pose tracking, inferring `33` 3D landmarks and background segmentation mask on the whole body from RGB video frames utilizing our research for human skeleton gesture recognition.
+The video data was collected and processed using [MediaPipe](https://google.github.io/mediapipe/) $--$ a machine learning solution for high-fidelity body pose tracking, inferring `33` 3D landmarks and background segmentation mask on the whole body from RGB video frames utilizing our research for human skeleton gesture recognition.
 
 ## Dataset Description
 
