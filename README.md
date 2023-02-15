@@ -25,4 +25,5 @@ The video data was collected and processed using [Mediapipe](https://google.gith
 ### For classification classes tasks, the classification algorithms are applied primarily on three classes classification ie. Left, right, both. Next, the data is divided into lefthand, righthand, & bothhand datasets, and the classification model is trained on lefthand (16) classes, righthand (16) classes, bothhand (19) classes.  
 
 ## For training model , the  supervised learning methods is implemented, Naive-Bayes-Gaussian Method & Linear-Regression method. 
-- 
+
+The best performance was by Linear Regression classification modal on whole dataset for three classes. The accuracy can be checked in the linear-regression implementation. 
