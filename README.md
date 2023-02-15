@@ -41,4 +41,4 @@ For multi-classes classification problem, the accuracy decreased marginally. For
 
 \
 For more information or discussion, feel free to write me on [Telegram](https://t.me/tomarp) or [email](mailto:p.tomar@outlook.de?subject=[GitHub]). \
-Please feel free to leave a comment or any suggestions. Happy learning. 
+Please feel free to leave comments or suggestions. Happy learning. 
