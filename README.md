@@ -28,7 +28,8 @@ The video data was collected and processed using [MediaPipe](https://google.gith
 
 The best performance was by Linear Regression (LR) classification modal on whole dataset for three classes, the accuracy achieved after 500 iteration was 99.78%. 
 For multi-classes classification problem, the accuracy decreased marginally. For Naive Bayes Gaussian (NBG), best accuracy was achieved on reduced dimentionality data using t-SNE approach. The table below sumarize the achieved results: 
-\
+
+
 | Model | Classes | Dataset | Accuracy % | 
 |--------|----------|---------|----------|
 | LR | 3 | whole | 99.78 |
