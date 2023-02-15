@@ -1,6 +1,6 @@
 # Gesture Classification on Human Skeleton and Action
 
-The video data was collected and processed using [Mediapipe](https://google.github.io/mediapipe/): a machine learning solution for high-fidelity body pose tracking, inferring 33 three-D landmarks and background segmentation mask on the whole body from RGB video frames utilizing our BlazePose research that also powers the ML Kit Pose Detection API.
+The video data was collected and processed using [Mediapipe](https://google.github.io/mediapipe/), a machine learning solution for high-fidelity body pose tracking, inferring 33 three-D landmarks and background segmentation mask on the whole body from RGB video frames utilizing our BlazePose research that also powers the ML Kit Pose Detection API.
 
 ## Dataset Description
 
@@ -37,3 +37,4 @@ For multi-classes classification problem, the accuracy decreased marginally. For
 | NBG | 3 | whole | 91.28 | 
 |NBG | 3 | t-SNE | 96.80 | 
 
+For more information, feel free to write me on [Telegram](https://t.me/tomarp)
