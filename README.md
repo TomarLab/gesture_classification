@@ -26,4 +26,14 @@ The video data was collected and processed using [Mediapipe](https://google.gith
 
 ## For training model , the  supervised learning methods is implemented, Naive-Bayes-Gaussian Method & Linear-Regression method. 
 
-The best performance was by Linear Regression classification modal on whole dataset for three classes. The accuracy can be checked in the linear-regression implementation. 
+The best performance was by Linear Regression (LR) classification modal on whole dataset for three classes, the accuracy achieved after 500 iteration was 99.78%. 
+For multi-classes classification problem, the accuracy decreased marginally. For Naive Bayes Gaussian (NBG), best accuracy was achieved on reduced dimentionality data using t-SNE approach. The table below sumarize the achieved results: 
+| Model | Classes | Dataset | Accuracy % | 
+|--------|----------|---------|----------|
+| LR | 3 | whole | 99.78 |
+| LR | 16 | lefthand | 86.93 |
+| LR | 16 | righthand | 82.33 | 
+| LR | 19 | bothhand | 93.85 |
+| NBG | 3 | whole | 91.28 | 
+|NBG | 3 | t-SNE | 96.80 | 
+
