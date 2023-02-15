@@ -38,5 +38,5 @@ For multi-classes classification problem, the accuracy decreased marginally. For
 |NBG | 3 | t-SNE | 96.80 | 
 
 \
-For more information or discussion, feel free to write me on [Telegram](https://t.me/tomarp) or [email](mailto:p.tomar@outlook.de?subject=[GitHub]). 
+For more information or discussion, feel free to write me on [Telegram](https://t.me/tomarp) or [email](mailto:p.tomar@outlook.de?subject=[GitHub]). \
 Happy learning. 
